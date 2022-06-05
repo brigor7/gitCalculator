@@ -4,7 +4,7 @@ public class Calculator{
 	}
 	
 	public double addition(double a, double b){
-		return a + b;
+		return a + b; //outro comentario
 	}
 	
 	public static void main(String a[]){
