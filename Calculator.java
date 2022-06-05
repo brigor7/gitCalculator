@@ -4,10 +4,11 @@ public class Calculator{
 	}
 	
 	public double addition(double a, double b){
-		return a + b;
+		return a + b; //return double
 	}
 	
 	public static void main(String a[]){
+		//causando um conflito merge
 		Calculator calculator = new Calculator();
 		System.out.println("Projeto Calculadora");
 		System.out.println("Addition 2 + 3 = "+calculator.addition(2,3));
